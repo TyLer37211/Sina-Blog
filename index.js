@@ -132,12 +132,12 @@ $(function (){
         if ($html.attr('data-theme') === 'dark') {
             // 如果是黑夜模式，切换到日间模式
             $html.removeAttr('data-theme');
-            $('.main-right-top').css('background-image','url("images/bg.jpg")')
+            $('.main-right-top').css('background-image','url("/Sina-Blog/bg.jpg")')
             $('#nav .nav-center .nav-center-logo img').css('visibility', 'visible')
         } else {
             // 如果是日间模式，切换到黑夜模式
             $html.attr('data-theme', 'dark');
-            $('.main-right-top').css('background-image','url("images/bg_night.jpg")')
+            $('.main-right-top').css('background-image','url("/Sina-Blog/bg_night.jpg")')
             $('#nav .nav-center .nav-center-logo img').css('visibility','hidden')
         }
     })
